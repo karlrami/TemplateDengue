@@ -1,0 +1,50 @@
+
+/* Media query */
+.banner-top{
+    background: url(/img/bannerTop.jpg);
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dp-movil{
+    display: none!important;
+ } 
+ .dp-lg{
+    display: block;
+ }
+
+.nav-link{
+    color: #fff;
+}
+.nav-link:hover{
+    color: #a473ffc4;
+}
+ #menuStiky{
+     z-index: 1;
+     border-bottom: 2px solid #0231ff;
+     backdrop-filter: saturate(200%) blur(30px);
+     background-color: hsl(242.76deg 87.4% 23.95%)!important;
+     box-shadow: rgba(0,0,0,0.5) 0 3px 12px 1px;
+    }
+    
+    .banner-background{
+        position: fixed;
+        top: 0;     
+    }
+
+@media only screen and ( max-width: 600px){
+
+    .dp-movil{
+       display: block!important;
+    }  
+    
+    #carouselExampleIndicators{
+        height: 480px;
+    }
+
+    .dp-lg{
+        display: none!important;
+    }
+
+}
